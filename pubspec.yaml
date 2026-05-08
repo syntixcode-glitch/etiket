@@ -10,9 +10,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.5
   camera: ^0.11.0
-  google_ml_kit: ^0.8.0
+  google_ml_kit: ^0.16.3
   http: ^1.1.0
-  html: ^0.18.0
+  html: ^0.15.4
   sqflite: ^2.2.8
   path: ^1.8.3
   intl: ^0.18.1
