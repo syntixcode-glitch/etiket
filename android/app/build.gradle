@@ -1,23 +1,15 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-    }
+plugins {
+    id 'com.android.application'
 }
 
-apply plugin: 'com.android.application'
-
 android {
-    compileSdkVersion 33
+    compileSdk 34
     namespace 'com.example.etiket'
 
     defaultConfig {
         applicationId "com.example.etiket"
-        minSdkVersion 21
-        targetSdkVersion 33
+        minSdk 21
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
