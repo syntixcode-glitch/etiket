@@ -1,0 +1,26 @@
+name: etiket
+description: ETİKET market tarayıcı ve fiyat karşılaştırma uygulaması.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+  flutter: '>=3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  camera: ^0.11.0
+  google_ml_kit: ^0.8.0
+  http: ^0.14.0
+  html: ^0.15.0
+  sqflite: ^2.2.8
+  path: ^1.8.3
+  intl: ^0.18.1
+  permission_handler: ^10.4.1
+  url_launcher: ^6.1.12
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
